@@ -47,4 +47,6 @@ else
     sh /hadoopecosystem/hbase/bin/hbase-daemon.sh start ${short_name}
   fi
 fi
-#*/6 * * * * sh /hadoopecosystem/hbase/bin/monitor_hbase.sh org.apache.hadoop.hbase.regionserver.HRegionServer regionserver
+
+# */6 * * * * sh /hadoopecosystem/hbase/bin/monitor_hbase.sh org.apache.hadoop.hbase.regionserver.HRegionServer regionserver >/dev/null 2>&1
+# */6 * * * * sh /hadoopecosystem/hbase/bin/monitor_hbase.sh org.apache.hadoop.hbase.master.HMaster master >/dev/null 2>&1

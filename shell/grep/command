@@ -1,0 +1,4 @@
+1.使用grep查看目录下，哪个文件配置特定的字符串
+grep 1G *
+kafka-run-class.sh:  KAFKA_JVM_PERFORMANCE_OPTS="-server -XX:+UseG1GC -XX:MaxGCPauseMillis=20 -XX:InitiatingHeapOccupancyPercent=35 -XX:+DisableExplicitGC -Djava.awt.headless=true"
+kafka-server-start.sh:    export KAFKA_HEAP_OPTS="-Xmx1G -Xms1G"
