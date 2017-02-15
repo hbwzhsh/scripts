@@ -1,0 +1,47 @@
+]$ dstat
+You did not select any stats, using -cdngy by default.
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw
+ 11   2  83   3   0   0|9960k   22M|   0     0 |7098B   15k|  19k   42k
+  6   1  91   2   0   0|9020k 1601k|1736k  458k|   0     0 |  17k   35k
+  5   1  91   2   0   0|6924k 1498k|1527k 1457k|   0     0 |  17k   34k
+
+Dstat is a versatile replacement for vmstat, iostat, netstat and ifstat.
+Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility.
+Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.
+Dstat allows you to view all of your system resources in real-time,
+you can eg. compare disk utilization in combination with interrupts from your IDE controller,
+or compare the network bandwidth numbers directly with the disk throughput (in the same interval).
+Dstat是一个多功能的替代vmstat，iostat，netstat和ifstat的命令。
+Dstat克服了一些限制，并增加了一些额外的功能，更多的计数器和灵活性。
+在性能调整测试，基准测试或故障排除期间，Dstat可用于监视系统。
+Dstat允许您实时查看所有系统资源，例如，将磁盘利用率与来自IDE控制器的中断进行比较，或者将网络带宽数与磁盘吞吐量直接比较（在同一时间间隔内）。
+
+
+Context switch
+From Wikipedia, the free encyclopedia
+In computing, a context switch is the process of storing and restoring the state (context) of a process or thread so that execution can be resumed from the same point at a later time. This enables multiple processes to share a single CPU and is an essential feature of a multitasking operating system. What constitutes the context is determined by the processor and the operating system.[1]
+Context switches are usually computationally intensive, and much of the design of operating systems is to optimize the use of context switches. Switching from one process to another requires a certain amount of time for doing the administration – saving and loading registers and memory maps, updating various tables and lists etc.
+在计算中，上下文切换是存储和恢复进程或线程的状态（上下文）的过程，使得可以在稍后的时间从相同点恢复执行。这使多个进程能够共享单个CPU，并且是多任务操作系统的基本特征。什么构成上下文由处理器和操作系统决定。[1]
+上下文切换通常是计算密集型的，并且操作系统的大部分设计是优化上下文切换的使用。从一个进程切换到另一个进程需要一定量的时间来进行管理 - 保存和加载寄存器和内存映射，更新各种表和列表等。
+
+Interrupt
+From Wikipedia, the free encyclopedia
+In systems programming, an interrupt is a signal to the processor emitted by hardware or software indicating an event that needs immediate attention.
+An interrupt alerts the processor to a high-priority condition requiring the interruption of the current code the processor is executing.
+The processor responds by suspending its current activities, saving its state, and executing a function called an interrupt handler (or an interrupt service routine, ISR) to deal with the event.
+This interruption is temporary, and, after the interrupt handler finishes, the processor resumes normal activities.
+[1] There are two types of interrupts: hardware interrupts and software interrupts.
+Hardware interrupts are used by devices to communicate that they require attention from the operating system.
+[2] Internally, hardware interrupts are implemented using electronic alerting signals that are sent to the processor from an external device,
+which is either a part of the computer itself, such as a disk controller, or an external peripheral.
+For example, pressing a key on the keyboard or moving the mouse triggers hardware interrupts that cause the processor to read the keystroke or mouse position. Unlike the software type (described below), hardware interrupts are asynchronous and can occur in the middle of instruction execution, requiring additional care in programming.
+The act of initiating a hardware interrupt is referred to as an interrupt request (IRQ).
+在系统编程中，中断是由硬件或软件发出的指示需要立即注意的事件的信号。中断警告处理器需要中断处理器正在执行的当前代码的高优先级条件。
+处理器通过暂停其当前活动，保存其状态，并执行称为中断处理程序（或中断服务程序，ISR）的功能来响应，以处理事件。
+这种中断是暂时的，并且在中断处理程序完成后，处理器恢复正常活动。
+[1]有两种类型的中断：硬件中断和软件中断。
+硬件中断被设备用于通信，它们需要操作系统的注意。
+[2]在内部，使用从外部设备（其是计算机本身的一部分，例如盘控制器或外部外围设备）发送到处理器的电子警报信号来实现硬件中断。
+例如，按下键盘上的键或移动鼠标触发硬件中断，导致处理器读取键击或鼠标位置。与软件类型（如下所述）不同，硬件中断是异步的，可以在指令执行的中间发生，在编程时需要额外注意。
+发起硬件中断的动作被称为中断请求（IRQ）。
