@@ -1,0 +1,5 @@
+在java／bin目录下，有一个jvisualvm命令，可用来开启终端Java Virtual Machine Monitoring.
+
+Java VisualVM is an intuitive graphical user interface that provides detailed information about Java technology-based applications (Java applications) while they are running on a given Java Virtual Machine (JVM*). The name Java VisualVM comes from the fact that Java VisualVM provides information about the JVM software visually.
+
+Java VisualVM combines several monitoring, troubleshooting, and profiling utilities into a single tool. For example, most of the functionality offered by the standalone tools jmap, jinfo, jstat and jstack have been integrated into Java VisualVM. Other functionalities, such as some of those offered by the JConsole tool, can be added as optional plug-ins.
