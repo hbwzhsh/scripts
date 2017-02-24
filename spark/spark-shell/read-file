@@ -1,0 +1,4 @@
+#zeppelin中读取文件，统计文件行数
+val factPath="/log/medusa/rawlog/20170223/log.medusa.2017-02-23-21*"
+var rdd = sc.textFile(factPath)
+println(rdd.count())
