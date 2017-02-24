@@ -1,0 +1,12 @@
+在java／bin目录下，有一个jvisualvm命令，可用来开启终端Java Virtual Machine Monitoring.
+昨天是情人节，我六点准时下班，却在高科中路上堵了将近一个小时，情绪是烦躁的，我在这个时候处理情绪上是不是应该更近一步。
+昨天最大的收获是知道买美股的基本流程了，知道美股一手是一股，以及美国知名股票的价格。但是投入也就是这么多了，在资金方面有风险的。
+可以持续的研究，找一种安全的方式炒美股和港股。但是总的投入比例不应高于家庭资产的30%。八月份，还要还15万给中信银行，需要把这部分钱集齐。
+父母在我身边，是没有花多少钱的，每天早餐，晚餐反而是省钱的，在我身边，我和老婆都很开心。
+通过研究美股这个事情，知道如果你对一件事情感兴趣，总有方法实现的。李笑来老师说的正确的一句话是，做正确的事情，即使慢点，也总比做错的事情好。
+例如，知识积累，方法正确，事半功倍。保证正常作息时间，身体健康。
+每天坚持写作，首先是理清思路的一个过程，也方便日后知道自己的时间都花在哪里，经历了哪些事情，当时的心里感受是什么样的。
+今天早上看到微信，芳芳凌晨三点多发的微信，说自己考研成绩不是很理想，现在等着调剂到二类院校，如果现在的分数能超过国家线的话。
+Java VisualVM is an intuitive graphical user interface that provides detailed information about Java technology-based applications (Java applications) while they are running on a given Java Virtual Machine (JVM*). The name Java VisualVM comes from the fact that Java VisualVM provides information about the JVM software visually.
+
+Java VisualVM combines several monitoring, troubleshooting, and profiling utilities into a single tool. For example, most of the functionality offered by the standalone tools jmap, jinfo, jstat and jstack have been integrated into Java VisualVM. Other functionalities, such as some of those offered by the JConsole tool, can be added as optional plug-ins.

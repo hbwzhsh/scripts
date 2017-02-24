@@ -1,0 +1,2 @@
+将start_filebeat.sh文件里的pig字符串替换为dog，全局替换g
+ sed -i 's/pig/dog/g' start_filebeat.sh
